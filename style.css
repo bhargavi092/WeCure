@@ -1,0 +1,205 @@
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.navbar-light .navbar-brand{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+}
+
+.about-section-padding{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.service .card-body{
+    font-size: 50px;
+}
+
+.doctor-img{
+    height: 100%;
+    width: 70%;
+    border-radius: 40%;
+    cursor:pointer;
+}
+
+.contact{
+    margin-top: 6%;
+    margin-bottom: 3%;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(images/dental4.png) no-repeat;
+    background-size: 100% 100%;
+
+}
+#cbtn{
+    color: black;
+}
+#cbtn:hover{
+    color: black;
+}
+
+@media only screen and (max-width:991px){
+    .card{
+        margin-bottom: 10%;
+    }
+    .img-area img{
+        width: 100%;
+    }
+}
+
+@media only screen and(max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 95px;
+    }
+    .carousel-caption h5{
+       font-size: 17px;
+    }
+    .carousel-caption a{
+       padding: 10px 15px;
+    }
+}
+
+.social{
+    padding: 0;
+}
+h4{
+    padding: 15px 0px;
+    color: #fff;
+}
+h2{
+    color: #fff;
+}
+.social li{
+    display: inline-block;
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    padding: 0cm;
+}
+.social li a{
+    padding-top: 4px;
+    color: #333;
+    transition: .3s;
+    font-size: 25px;
+}
+.social li a:hover{
+    color: rgb(30,118,226);
+    text-decoration: none;
+}
+
+.footer .links ul{
+    list-style-type: none;
+}
+.footer .links li a{
+    color: #fff;
+    transition: color 0.2s;
+}
+.footer .links a:hover{
+    text-decoration: none;
+    color: rgb(30,118,226);
+}
+.footer .location i{
+    font-size: 18px;
+}
+.footer .copyright p{
+    font-size:1.3rem;
+    text-shadow: 1px 1px white;
+}
+.loc{
+    color: #fff;
+}
+small {
+    color: #fff;
+}
+.line{
+    border-top: 1px solid rgb(240, 231, 231);
+    border-bottom: 1px solid rgb(245, 234, 234);
+}
+
+/* appointment */
+.appointment{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background:linear-gradient(rgba(3, 109, 3, 0.6),rgba(3, 100, 3, 0.6)) ,url(images/dental4.png) no-repeat;
+}
+.inner-layer{
+    /* overflow: auto; */
+}
+.form-data{
+    margin-top: 5%;
+    width: 100%;
+    height: 92%;
+    background-color: #fff;
+    border-radius: 15px;
+
+}
+.form-control{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    height: 92%;
+}
+.form-head{
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.form head h3{
+    font-size:22px;
+    font-weight: 600;
+    color: black;
+}
+
+.form-body{
+    padding: 20px;
+}
+.no-margin{
+    margin:0px;
+}
+/* .form-row{
+    margin-bottom: 10px;
+} */
+input[type="text"]:focus,input[type="email"]:focus,input[type="date"]:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid green;
+}
+.form-control:hover{
+    box-shadow: none;
+    border: 1px solid green;
+
+}
+.btn-appointment{
+    background-color: #136496;
+}
+.content{
+    margin-top: 20%;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+.content h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.content p{
+    font-size: 17px;
+}
